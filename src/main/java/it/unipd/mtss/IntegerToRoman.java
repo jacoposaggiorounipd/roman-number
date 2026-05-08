@@ -7,14 +7,14 @@ package it.unipd.mtss;
 
 public class IntegerToRoman {
     public static String convert(int number) {
-        if (number < 1 || number > 3) {
+        if (number < 1 || number > 6) {
             throw new IllegalArgumentException(
-                "Valore numerico non compreso tra 1 e 3");
+                "Valore numerico non compreso tra 1 e 6");
         }
 
-        int[] values = {1};
+        int[] values = {5, 4, 1};
 
-        String[] romanSymbols = {"I"};
+        String[] romanSymbols = {"V", "IV", "I"};
 
         StringBuilder result = new StringBuilder();
 
