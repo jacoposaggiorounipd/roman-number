@@ -14,7 +14,7 @@ public class RomanPrinter {
     }
 
     private static String printAsciiArt(String romanNumber) {
-        Map<Character, String[]> ascii = new HashMap<Character, String[]>();
+        Map<Character, String[]> ascii = new HashMap<>();
 
         ascii.put('I', new String[]{
                 "  _____ ",
