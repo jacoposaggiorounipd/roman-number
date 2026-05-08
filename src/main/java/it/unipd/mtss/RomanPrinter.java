@@ -44,7 +44,7 @@ public class RomanPrinter {
         });
 
         ascii.put('L', new String[]{
-                " __      ",
+                " _      ",
                 "| |      ",
                 "| |      ",
                 "| |      ",
