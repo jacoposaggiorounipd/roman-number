@@ -128,4 +128,14 @@ public class IntegerToRomanTest {
         assertEquals("C", IntegerToRoman.convert(100)); 
     }
 
+    @Test public void testConvert400() { 
+        assertEquals("CD", IntegerToRoman.convert(400));
+    }
+
+
+    @Test public void testConvert500() { 
+        assertEquals("D", IntegerToRoman.convert(500)); 
+    }
+
+
 }
