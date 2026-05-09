@@ -58,4 +58,55 @@ public class IntegerToRomanTest {
     public void testConvert10() {
         assertEquals("X", IntegerToRoman.convert(10));
     }
+
+    @Test
+    public void testConvert11() {
+        assertEquals("XI", IntegerToRoman.convert(11));
+    }
+
+    @Test
+    public void testConvert12() {
+        assertEquals("XII", IntegerToRoman.convert(12));
+    }
+
+    @Test
+    public void testConvert13() {
+        assertEquals("XIII", IntegerToRoman.convert(13));
+    }
+
+    @Test
+    public void testConvert14() {
+        assertEquals("XIV", IntegerToRoman.convert(14));
+    }
+
+    @Test
+    public void testConvert15() {
+        assertEquals("XV", IntegerToRoman.convert(15));
+    }
+
+    @Test
+    public void testConvert16() {
+        assertEquals("XVI", IntegerToRoman.convert(16));
+    }
+
+    @Test
+    public void testConvert17() {
+        assertEquals("XVII", IntegerToRoman.convert(17));
+    }
+
+    @Test
+    public void testConvert18() {
+        assertEquals("XVIII", IntegerToRoman.convert(18));
+    }
+
+    @Test
+    public void testConvert19() {
+        assertEquals("XIX", IntegerToRoman.convert(19));
+    }
+
+    @Test
+    public void testConvert20() {
+        assertEquals("XX", IntegerToRoman.convert(20));
+    }
+
 }
