@@ -137,5 +137,12 @@ public class IntegerToRomanTest {
         assertEquals("D", IntegerToRoman.convert(500)); 
     }
 
+    @Test public void testConvert900() { 
+        assertEquals("CM", IntegerToRoman.convert(900));
+    }
+
+    @Test public void testConvert1000() { 
+        assertEquals("M", IntegerToRoman.convert(1000));
+    }
 
 }
