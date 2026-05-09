@@ -118,5 +118,14 @@ public class IntegerToRomanTest {
     public void testConvert50() { 
         assertEquals("L", IntegerToRoman.convert(50)); 
     }
+
+    @Test public void testConvert90() { 
+        assertEquals("XC", IntegerToRoman.convert(90)); 
+    }
+
     
+    @Test public void testConvert100() { 
+        assertEquals("C", IntegerToRoman.convert(100)); 
+    }
+
 }
